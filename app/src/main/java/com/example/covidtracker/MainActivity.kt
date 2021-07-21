@@ -1,8 +1,8 @@
 package com.example.covidtracker
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.example.covidtracker.databinding.ActivityMainBinding
 import com.google.gson.GsonBuilder
@@ -12,7 +12,6 @@ import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.http.Tag
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
 import java.util.*
